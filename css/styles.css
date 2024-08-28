@@ -1,0 +1,138 @@
+*{
+    font-family: "Tilt Neon", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+
+header{
+    background-color: #000;
+}
+
+.bloqueHeaderFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.logoUp{
+    background-color: #000;
+    height: 15vh;
+    display: flex;
+    padding: 0;
+}
+
+.headerNav{
+    background: #000;
+}
+
+.listaNav{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.enlaceNav{
+    color: rgb(255, 249, 249);
+    background-color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 5rem;
+}
+
+/*main*/
+
+.imagenBanner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.slogan{
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.bloqueMainFlexIndex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 4%;
+}
+
+.bloqueMainFlexIndex, p{
+    margin-top: 2rem;
+}
+
+.previewGorra img, .previewGorra, .previewCadenita img, .previewCadenita, .previewAnillo img, .previewAnillo{
+    width: 25rem;
+}
+
+.basesYcondiciones{
+    color: #000;
+    text-align: center;
+    background-image: url(../images/bannerNewsletter.jpg);
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.leerBases{
+    color: #000;
+}
+
+/*footer*/
+
+footer{
+    background-color: #000;
+}
+
+.logoDown{
+    background-color: #000;
+    height: 10vh;
+    display: flex;
+    padding-left: 2%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+.footerSection{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerNav{
+    background-color: #000;
+    text-align: end;
+    margin-top: 2%;
+}
+
+.atajo{
+    color: rgb(234, 223, 218);
+    background-color: #000;
+    text-decoration: none;
+    text-transform: lowercase;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.wpp img, .ig img, .ytb img{
+    height: 8vh;
+}
