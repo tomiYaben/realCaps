@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-/*header*/
+/*header de los 5 archivos*/
 
 header{
     background-color: #000;
@@ -44,7 +44,7 @@ header{
     margin: 5rem;
 }
 
-/*main*/
+/*main Index*/
 
 .imagenBanner{
     width: 100%;
@@ -96,7 +96,11 @@ header{
     color: #000;
 }
 
-/*footer*/
+.parrafoGorrasIndex, .parrafoAccesoriosIndex, .parrafoAnillosIndex{
+    text-align: justify;
+}
+
+/*footer de los 5 archivos*/
 
 footer{
     background-color: #000;
@@ -135,4 +139,98 @@ footer{
 
 .wpp img, .ig img, .ytb img{
     height: 8vh;
+}
+
+/*main Gorras*/
+
+.contenedorGorra1, .contenedorGorra2, .contenedorGorra3 {
+    text-align: center;
+}
+.contenedorGorra1 img, .contenedorGorra2 img, .contenedorGorra3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.parrafoGorras{
+    text-align: justify;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    line-height: 2.0;
+    font-size: 120%;
+}
+
+/*main Accesorios*/
+
+.contenedorCadenitas, .contenedorAritos, .contenedorAnillos{
+    text-align: center;
+}
+
+.contenedorCadenitas img, .contenedorAritos img, .contenedorAnillos img{
+    max-width: 100%;
+    height: auto;
+}
+
+.parrafoAccesorios{
+    text-align: justify;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    line-height: 2.0;
+    font-size: 150%;
+}
+
+/*main Nosotros*/
+
+.parrafoNosotros, .parrafoNosotros2, .parrafoNosotros3, .parrafoNosotros4, .parrafoNosotros5{
+    text-align: justify;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    line-height: 2.0;
+    font-size: 120%;
+}
+
+/*main Sucursales*/
+
+.parrafoSucursalPalermo, .parrafoSucursalUrquiza{
+    text-align: justify;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    line-height: 2.0;
+    font-size: 150%;
+}
+
+.contenedorMapaPalermo{
+    position: relative;
+            width: 84%;
+            height: 400px;
+            margin-left: 8%;
+            padding-right: 8%;
+}
+
+.contenedorMapaPalermo iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.contenedorMapaUrquiza{
+    position: relative;
+            width: 84%;
+            height: 400px;
+            margin-left: 8%;
+            padding-right: 8%;
+            margin-bottom: 5%;
+}
+
+.contenedorMapaUrquiza iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
